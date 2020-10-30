@@ -59,7 +59,7 @@ header {
   grid-area: picture;
   padding: 6rem;
   background: var(--background); }
-  .picture img {
+  .picture .photoId1 img {
     border-radius: 50%; }
 
 aside {
