@@ -1,0 +1,22 @@
+{
+  "name": "spa_cv_portfolio",
+  "version": "1.0.0",
+  "description": "site cv portfolio",
+  "main": "index.html",
+  "scripts": {
+    "sass": "node-sass -w scss -o css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jean-christophe-mairot/spa_cv_portfolio.git"
+  },
+  "author": "jc mairot",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jean-christophe-mairot/spa_cv_portfolio/issues"
+  },
+  "homepage": "https://github.com/jean-christophe-mairot/spa_cv_portfolio#readme",
+  "dependencies": {
+    "node-sass": "^4.14.1"
+  }
+}
