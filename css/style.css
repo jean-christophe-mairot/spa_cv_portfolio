@@ -32,6 +32,10 @@ a {
 img {
   max-width: 100%; }
 
+.title-small {
+  letter-spacing: 0.2rem;
+  font-size: 1.7rem; }
+
 .grid-container {
   display: grid;
   min-height: 100vh;
@@ -58,12 +62,25 @@ header {
 .picture {
   grid-area: picture;
   padding: 6rem;
-  background: var(--background); }
+  background: var(--background);
+  border-right: 1px solid #ddd; }
   .picture .photoId1 img {
     border-radius: 50%; }
 
 aside {
-  grid-area: aside; }
+  grid-area: aside;
+  background: var(--backround);
+  border-right: 1px solid #ddd;
+  padding: 5rem;
+  min-height: 1500px; }
+  aside .block {
+    margin-bottom: 5rem; }
+    aside .block h3 {
+      margin-bottom: 0;
+      font-size: 1.5rem; }
+    aside .block p {
+      margin: 0 0 2rem 0;
+      font-style: italic; }
 
 main {
   grid-area: main; }
