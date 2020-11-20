@@ -132,7 +132,7 @@
           accusantium possimus recusandae praesentium, a sed pariatur itaque
           optio asperiores, vel accusamus repudiandae assumenda?
         </p>
-        <h2 class="title-small">EXPERIENCE PROFESSIONNELLES</h2>
+        <h2 class="title-small">EXPERIENCES PROFESSIONNELLES</h2>
         <!-- experience dev web -->
         <div class="experience">
           <div class="timeline">

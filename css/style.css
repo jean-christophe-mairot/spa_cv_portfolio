@@ -42,6 +42,12 @@ img {
 .text-hint {
   color: var(--hint); }
 
+.hide {
+  display: block; }
+
+.appText {
+  display: none; }
+
 .mb-5 {
   margin-bottom: 5rem !important; }
 

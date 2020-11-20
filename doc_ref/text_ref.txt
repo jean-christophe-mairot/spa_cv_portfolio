@@ -1,0 +1,81 @@
+1. Être passionné
+Prérequis n°1 : 
+
+pour être développeur, il vaut mieux être passionné. 
+S’être intéressé à la programmatique, aux nouvelles technologies et avoir 
+une bonne culture web est un atout non négligeable. Alors, si les algorithmes 
+complexes ne vous impressionnent pas, si concevoir des sites, applications ou 
+programmes est un challenge que vous accepteriez avec plaisir, c’est probablement 
+un très bon début.
+
+2. Faire de la veille régulièrement
+Sur ce point, notre équipe est unanime : 
+
+faire de la veille est l’une des missions essentielles du développeur. 
+Et pour cause, le secteur informatique évolue en permanence. Il est donc 
+primordial de se tenir informé des mises à jour, évolutions des technologies 
+et nouveautés… Cette veille permet aux développeurs de pouvoir continuer de 
+proposer des solutions adaptées et dans l’air du temps.
+
+3. Se former pour s’adapter aux changements
+
+Une fois les nouvelles solutions identifiées, se former à leur utilisation 
+reste un passage nécessaire. Cela permet également de ne pas se laisser 
+dépasser par les nouveaux arrivants sur le marché. L’autoformation fait 
+aussi partie du job (même si les collègues restent disponibles pour partager 
+leur expérience). Il est également important de se remettre en question assez 
+souvent pour ne rien manquer des nouveautés : est-ce que j’utilise la bonne méthode ? 
+Est-il possible de l'améliorer ? La recherche de l'optimisation des compétences doit 
+être constante. Vous aimez le changement ? Très bien, chez les développeurs, 
+il n'est pas possible de rester sur ses acquis.
+
+4. Etre rigoureux et persévérant
+
+Une petite erreur dans une ligne de code et... 
+c’est le drame ! Développer un site, un programme, une application demande 
+de la rigueur et de la concentration. Comme le dit si bien le célèbre dicton, 
+Rome ne s’est pas construite en un jour. Votre code nécessite lui aussi du 
+temps et de la réflexion pour être bien construit. Il faut donc rester curieux, 
+motivé et ne pas se décourager à la moindre difficulté rencontrée.
+
+5. Etre à l’écoute des autres
+
+En tant que développeur, il est important d’être à l’écoute des autres. 
+Tout d’abord, à l’écoute des personnes avec qui vous devez coopérer pour la 
+réalisation du projet. Ensuite, d’être à l’écoute de vos collègues développeurs 
+qui pourront vous apporter leur expertise et des idées auxquelles vous n’aviez 
+peut-être pas pensé. N’oubliez pas qu’être à l’écoute de l’autre permet avant 
+tout d’enrichir sa propre expérience. Cela ne doit pas vous empêcher de vous 
+affirmer lorsque cela est nécessaire.
+
+6. Savoir travailler en équipe tout en étant autonome
+
+Etre développeur demande de savoir travailler en autonomie mais également en équipe. 
+Qu’il exerce en agence, en entreprise ou en tant que freelance, le développeur 
+est intégré à une équipe avec laquelle il devra savoir communiquer. Cela est nécessaire 
+à la bonne réalisation des projets. Le travail en autonomie lui sera demandé sur 
+la partie technique sur laquelle il devra être force de proposition.
+
+7. Réfléchir avant d’agir
+
+Il peut arriver de commencer un travail sans y avoir vraiment réfléchi au préalable. 
+Sachez que ce moment de réflexion est loin d’être une perte de temps. Poser les choses 
+calmement, inspecter la problématique sous tous ses angles… tout cela est nécessaire si 
+vous souhaitez réaliser un code fiable et sécurisé. Cela permettra de réduire les bugs et 
+les tâches liées à la maintenance. C’est un bon exercice qui stimulera votre esprit d’analyse.
+
+8. Avoir un esprit d’analyse
+
+En parlant d'analyse, être développeur demande d'être doté d'un esprit logique et analytique. 
+C’est un atout indispensable qui vous permettra de relever de nombreux défis. 
+Si l’analyse n’est, à priori, pas toujours votre fort, il est possible de développer cette 
+compétence grâce à l’expérience, la résolution des problèmes et la connaissance 
+des langages informatiques.
+
+9. Savoir partager
+
+Il y a une bonne raison pour laquelle la communauté Open Source est le fer de lance
+ des développeurs : c’est un métier dans lequel le partage de connaissances et de 
+ compétences joue un rôle majeur. Ce partage se réalise, par exemple, à travers la 
+ contribution de code, le mentoring, ou simplement l’entraide dans l’équipe. Partager 
+ est l'une des meilleures façons de progresser.
