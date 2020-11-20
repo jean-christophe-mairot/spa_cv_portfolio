@@ -2,7 +2,7 @@
   "name": "spa_cv_portfolio",
   "version": "1.0.0",
   "description": "site cv portfolio",
-  "main": "index.html",
+  "main": "index.php",
   "scripts": {
     "sass": "node-sass -w scss -o css"
   },

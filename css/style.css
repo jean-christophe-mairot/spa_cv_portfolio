@@ -39,10 +39,29 @@ img {
 .text-primary {
   color: var(--primary); }
 
+.text-hint {
+  color: var(--hint); }
+
+.mb-5 {
+  margin-bottom: 5rem !important; }
+
+.mb-2 {
+  margin-bottom: 2rem !important; }
+
+@keyframes bounce {
+  0% {
+    transform: scale(0); }
+  100% {
+    transform: scale(100%); } }
+
+/* Landscape phones and down */
 .grid-container {
   display: grid;
   min-height: 100vh;
-  grid: "picture header" auto "aside main" 1fr / 350px auto; }
+  grid: "picture header" auto "aside main" 1fr "footer footer" auto / 350px auto; }
+  @media (max-width: 480px) {
+    .grid-container {
+      grid: "header" auto "picture" auto "main" auto "aside" auto "footer" auto / auto; } }
 
 header {
   grid-area: header;
@@ -54,11 +73,17 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center; }
+  @media (max-width: 480px) {
+    header {
+      padding: 5rem 2rem; } }
   header h1 {
     font-size: 6rem;
     line-height: 8rem;
     font-weight: 300;
     letter-spacing: 3rem; }
+    @media (max-width: 480px) {
+      header h1 {
+        font-size: 4rem; } }
   header p {
     letter-spacing: 0.5rem; }
 
@@ -69,6 +94,13 @@ header {
   border-right: 1px solid var(--border); }
   .picture .photoId1 img {
     border-radius: 50%; }
+    @media (max-width: 480px) {
+      .picture .photoId1 img {
+        width: 60%;
+        margin: 3rem 10rem; } }
+  @media (max-width: 480px) {
+    .picture {
+      padding: 0rem; } }
 
 aside {
   grid-area: aside;
@@ -94,14 +126,14 @@ aside {
         height: 5px;
         top: 0;
         left: 0;
-        width: 80%;
+        width: 65%;
         background: var(--light); }
       aside .block .bar-skill .bar-skill-dot {
         position: absolute;
         height: 10px;
         width: 10px;
         background: var(--dark);
-        left: calc(80%);
+        left: calc(65%);
         top: -2.5px;
         transform: rotate(45deg); }
       aside .block .bar-skill .bar-skill-progress-php {
@@ -109,14 +141,14 @@ aside {
         height: 5px;
         top: 0;
         left: 0;
-        width: 60%;
+        width: 50%;
         background: var(--light); }
       aside .block .bar-skill .bar-skill-dot-php {
         position: absolute;
         height: 10px;
         width: 10px;
         background: var(--dark);
-        left: calc(60%);
+        left: calc(50%);
         top: -2.5px;
         transform: rotate(45deg); }
       aside .block .bar-skill .bar-skill-progress-js {
@@ -154,14 +186,14 @@ aside {
         height: 5px;
         top: 0;
         left: 0;
-        width: 45%;
+        width: 60%;
         background: var(--light); }
       aside .block .bar-skill .bar-skill-dot-nuke {
         position: absolute;
         height: 10px;
         width: 10px;
         background: var(--dark);
-        left: calc(45%);
+        left: calc(60%);
         top: -2.5px;
         transform: rotate(45deg); }
       aside .block .bar-skill .bar-skill-progress-revi {
@@ -190,7 +222,15 @@ aside {
       display: flex;
       justify-content: start;
       align-items: center;
-      margin: 2rem 0; }
+      padding: 1rem 1rem;
+      transition: all 0.2s;
+      cursor: pointer; }
+      aside .block .social-container:hover {
+        background: var(--border); }
+        aside .block .social-container:hover i {
+          color: var(--primary);
+          transform: scale(1.3);
+          transition: all 0.2s; }
       aside .block .social-container i {
         font-size: 2rem;
         flex: 0 0 50px;
@@ -202,15 +242,86 @@ aside {
 main {
   grid-area: main;
   padding: 5rem; }
+  @media (max-width: 480px) {
+    main {
+      padding: 5rem 1.5rem; } }
   main h2 {
     margin-bottom: 4rem; }
   main p {
     letter-spacing: 0.1rem;
     line-height: 3rem; }
   main .experience {
-    display: flex; }
+    display: flex;
+    margin: 6rem 0; }
     main .experience .timeline {
       text-align: center;
       color: var(--hint);
       padding-right: 2rem;
       border-right: 1px solid var(--border); }
+      main .experience .timeline .p {
+        margin: 0; }
+    main .experience .content {
+      padding: 0 1rem; }
+      main .experience .content h3 {
+        margin: 0; }
+      main .experience .content p {
+        margin: 0; }
+      main .experience .content ul {
+        margin: 2rem 0;
+        list-style: circle;
+        padding-left: 4rem; }
+
+footer {
+  grid-area: footer;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  padding: 5rem;
+  background: var(--text); }
+  @media (max-width: 480px) {
+    footer {
+      padding: 5rem 1.5rem; } }
+  footer h2 {
+    margin-bottom: 3rem; }
+  footer form {
+    display: flex;
+    align-items: center; }
+    footer form .prefix {
+      background: linear-gradient(to right, var(--dark), var(--light));
+      padding: 1rem 2rem;
+      color: white;
+      font-size: 2rem;
+      border-top-left-radius: 15%;
+      border-bottom-left-radius: 15%; }
+    footer form input {
+      outline: 0;
+      min-width: 400px;
+      padding: 1rem 2rem;
+      border: 0;
+      line-height: 2rem; }
+      @media (max-width: 480px) {
+        footer form input {
+          min-width: 200px; } }
+      footer form input::placeholder {
+        color: var(--text); }
+    footer form button {
+      background: var(--text);
+      border: 0;
+      cursor: pointer;
+      transition: all 0.2s; }
+      footer form button:hover {
+        opacity: 0.8; }
+      footer form button .postfix {
+        background: linear-gradient(to right, var(--dark), var(--light));
+        padding: 1rem 2rem;
+        color: white;
+        font-size: 2rem;
+        border-top-right-radius: 15%;
+        border-bottom-right-radius: 15%; }
+
+.rot-jean {
+  display: inline-block;
+  animation: bounce 3s; }
