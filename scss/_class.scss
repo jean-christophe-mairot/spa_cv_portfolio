@@ -2,6 +2,9 @@
   &-small {
     letter-spacing: 0.2rem;
     font-size: 1.7rem;
+    &-center {
+      text-align: center;
+    }
   }
 }
 .text {
@@ -11,13 +14,4 @@
   &-hint {
     color: var(--hint);
   }
-}
-
-// pour faire apparaitre ou disparaitre une div
-.hide {
-  display: block;
-}
-// pour cacher un text ne pas afficher la div
-.appText {
-  display: none;
 }

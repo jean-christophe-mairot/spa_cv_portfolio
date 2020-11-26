@@ -254,34 +254,39 @@ main {
     letter-spacing: 0.1rem;
     line-height: 3rem;
   }
-  .experience {
-    display: flex;
-    margin: 6rem 0;
-    .timeline {
-      text-align: center;
-      color: var(--hint);
-      padding-right: 2rem;
-      border-right: 1px solid var(--border);
-      .p {
-        margin: 0;
+  .webdev {
+    display: none;
+    .experience {
+      display: flex;
+
+      padding: 6rem 0;
+      .timeline {
+        text-align: center;
+        color: var(--hint);
+        padding-right: 2rem;
+        border-right: 1px solid var(--border);
+        .p {
+          margin: 0;
+        }
       }
-    }
-    .content {
-      padding: 0 1rem;
-      h3 {
-        margin: 0;
-      }
-      p {
-        margin: 0;
-      }
-      ul {
-        margin: 2rem 0;
-        list-style: circle;
-        padding-left: 4rem;
+      .content {
+        padding: 0 1rem;
+        h3 {
+          margin: 0;
+        }
+        p {
+          margin: 0;
+        }
+        ul {
+          margin: 2rem 0;
+          list-style: circle;
+          padding-left: 4rem;
+        }
       }
     }
   }
 }
+
 // footer aside
 footer {
   grid-area: footer;
@@ -344,7 +349,7 @@ footer {
   }
 }
 // animation du nom prenom
-.rot-jean {
+.scale-name {
   // display
   display: inline-block;
   animation: bounce 3s;

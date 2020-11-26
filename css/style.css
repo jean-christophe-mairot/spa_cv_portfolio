@@ -35,18 +35,14 @@ img {
 .title-small {
   letter-spacing: 0.2rem;
   font-size: 1.7rem; }
+  .title-small-center {
+    text-align: center; }
 
 .text-primary {
   color: var(--primary); }
 
 .text-hint {
   color: var(--hint); }
-
-.hide {
-  display: block; }
-
-.appText {
-  display: none; }
 
 .mb-5 {
   margin-bottom: 5rem !important; }
@@ -256,26 +252,28 @@ main {
   main p {
     letter-spacing: 0.1rem;
     line-height: 3rem; }
-  main .experience {
-    display: flex;
-    margin: 6rem 0; }
-    main .experience .timeline {
-      text-align: center;
-      color: var(--hint);
-      padding-right: 2rem;
-      border-right: 1px solid var(--border); }
-      main .experience .timeline .p {
-        margin: 0; }
-    main .experience .content {
-      padding: 0 1rem; }
-      main .experience .content h3 {
-        margin: 0; }
-      main .experience .content p {
-        margin: 0; }
-      main .experience .content ul {
-        margin: 2rem 0;
-        list-style: circle;
-        padding-left: 4rem; }
+  main .webdev {
+    display: none; }
+    main .webdev .experience {
+      display: flex;
+      padding: 6rem 0; }
+      main .webdev .experience .timeline {
+        text-align: center;
+        color: var(--hint);
+        padding-right: 2rem;
+        border-right: 1px solid var(--border); }
+        main .webdev .experience .timeline .p {
+          margin: 0; }
+      main .webdev .experience .content {
+        padding: 0 1rem; }
+        main .webdev .experience .content h3 {
+          margin: 0; }
+        main .webdev .experience .content p {
+          margin: 0; }
+        main .webdev .experience .content ul {
+          margin: 2rem 0;
+          list-style: circle;
+          padding-left: 4rem; }
 
 footer {
   grid-area: footer;
@@ -328,6 +326,6 @@ footer {
         border-top-right-radius: 15%;
         border-bottom-right-radius: 15%; }
 
-.rot-jean {
+.scale-name {
   display: inline-block;
   animation: bounce 3s; }
