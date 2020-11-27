@@ -255,11 +255,11 @@ main {
     line-height: 3rem;
   }
   .webdev {
-    display: none;
+    // display: none;
     .experience {
       display: flex;
 
-      padding: 6rem 0;
+      padding: 2rem 0;
       .timeline {
         text-align: center;
         color: var(--hint);

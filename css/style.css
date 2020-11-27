@@ -50,6 +50,9 @@ img {
 .mb-2 {
   margin-bottom: 2rem !important; }
 
+.fsi {
+  font-style: italic; }
+
 @keyframes bounce {
   0% {
     transform: scale(0); }
@@ -252,28 +255,26 @@ main {
   main p {
     letter-spacing: 0.1rem;
     line-height: 3rem; }
-  main .webdev {
-    display: none; }
-    main .webdev .experience {
-      display: flex;
-      padding: 6rem 0; }
-      main .webdev .experience .timeline {
-        text-align: center;
-        color: var(--hint);
-        padding-right: 2rem;
-        border-right: 1px solid var(--border); }
-        main .webdev .experience .timeline .p {
-          margin: 0; }
-      main .webdev .experience .content {
-        padding: 0 1rem; }
-        main .webdev .experience .content h3 {
-          margin: 0; }
-        main .webdev .experience .content p {
-          margin: 0; }
-        main .webdev .experience .content ul {
-          margin: 2rem 0;
-          list-style: circle;
-          padding-left: 4rem; }
+  main .webdev .experience {
+    display: flex;
+    padding: 2rem 0; }
+    main .webdev .experience .timeline {
+      text-align: center;
+      color: var(--hint);
+      padding-right: 2rem;
+      border-right: 1px solid var(--border); }
+      main .webdev .experience .timeline .p {
+        margin: 0; }
+    main .webdev .experience .content {
+      padding: 0 1rem; }
+      main .webdev .experience .content h3 {
+        margin: 0; }
+      main .webdev .experience .content p {
+        margin: 0; }
+      main .webdev .experience .content ul {
+        margin: 2rem 0;
+        list-style: circle;
+        padding-left: 4rem; }
 
 footer {
   grid-area: footer;
